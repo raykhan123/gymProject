@@ -1,0 +1,60 @@
+.background-image {
+  background-image: url(../assets/gym.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 86vh;
+  width: 98vw;
+  background-position: center;
+  z-index: -1;
+  margin-top: 8.2%;
+  margin-bottom: 0.5rem;
+  outline-style: outset;
+
+}
+
+.text {
+  color: aliceblue;
+  position: absolute;
+  /* position: relative; */
+  /* right: 30%; */
+  /* left: 30%; */
+  bottom: 25%;
+  justify-content: center;
+  text-align: center;
+  margin-left: 5%;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.text h1 {
+  color: hsl(0, 100%, 50%);
+  margin-left: auto;
+  justify-content: center;
+  font-size: 10vh;
+}
+
+.text h2 {
+  color: hsl(0, 0%, 100%);
+  margin-left: auto;
+  justify-content: center;
+  font-size: 5vh;
+}
+
+.text button {
+  color: hsl(0, 0%, 55%);
+  background: rgb(255, 0, 0);
+  border-radius: 100px;
+  border-width: 0;
+  text-align: center;
+  font-size: 16px;
+  width: 250px;
+  height: 50px;
+}
+
+.text button:hover {
+  color: #ff0000;
+  border: #ff7a59 solid 1px;
+  background: rgb(255, 255, 255);
+}

@@ -1,0 +1,80 @@
+.fitness-services{
+    padding: 3rem 7%;
+    position: absolute;
+    margin-top: 165%;
+    background-color: rgb(224, 198, 164);
+    outline-style: outset;
+    height: 120vh;
+    width: 84.2vw;
+    overflow: visible;
+
+}
+.fitness-heading{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.fitness-heading h1{
+    font-size: 45px;
+    margin: 5px 0;
+    margin-bottom: 15px;
+}
+
+.fitness-heading h1{
+    margin-bottom: 15px;
+}
+
+
+.fitness-heading h1 span{
+    color: var(--first-color);
+}
+
+
+
+.fitness-main-service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+.fitness-inner-content{
+    flex: 1 1 300px;
+
+    
+}
+.fitness-images img{
+    width: 100%;
+    height: 50vh;
+    transition: 0.5s;
+}
+.fitness-images img:hover{
+    transform: translateY(-10px);
+}
+.fitness-inner-headings{
+    background: #f1f4f6e5;
+    padding: 3rem;
+}
+.fitness-inner-headings h1{
+    font-size: 25px !important;
+    padding: 0.5rem 0;
+}
+.fitness-inner-headings p{
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
+.fitness-inner-headings button{
+    padding: 0.8rem 1.3rem;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+    border: none;
+    margin-top: 8px;
+    align-items: center;
+}
+.fitness-inner-headings button:hover{
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0;
+}

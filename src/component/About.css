@@ -1,0 +1,65 @@
+
+.about-container{
+    width: 100%;
+    background-image: url('../assets/aboutbackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 86vh;
+    width: 98vw;
+    background-position: center;
+    display: grid;
+    grid-template-columns: (2 1fr);
+    z-index: -1;
+    overflow: auto;
+    margin-top: 50%;
+    margin-inline: auto;
+    outline-style: outset;
+
+
+
+    
+}
+
+.heading{
+  padding-left: 35rem;
+  text-shadow: 2px 2px 5px red;
+  text-decoration: underline;
+  margin-bottom: 0
+  
+}
+.image{
+  width: 35vw;
+  margin-left: 2rem;
+  margin-top: -18rem;
+  float: left;
+}
+
+.details{
+  margin-top: -12rem;
+  padding-left: 35rem;
+  background-color: antiquewhite;
+  text-align: justify;
+  padding-right: 2rem;
+  color: rgba(85, 45, 45, 0.993);
+  font-size: 20px;
+}
+  
+  
+  @media (max-width: 768px) {
+    .images-container img {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .images-container img {
+      width: 100%;
+    }
+  }
+
+  
+  
+  
+  
+  
