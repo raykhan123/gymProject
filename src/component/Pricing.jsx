@@ -6,7 +6,7 @@ import trainer3 from "../assets/trainer3.jpg";
 
 const Pricing = () => {
   return (
-    <section className="page">
+    <div className="page">
         <br/>
         <br/>
         <h1 className="headings">Meet With Our Professional Trainers</h1>
@@ -81,7 +81,7 @@ const Pricing = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

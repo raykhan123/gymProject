@@ -6,7 +6,7 @@ const About = () => {
   return (
    
    
-<section>
+
     <div className="background-image">
         <div className="text">
           <h1>MAKE YOU A BODY BUILDER </h1>
@@ -19,7 +19,7 @@ const About = () => {
        
         </div>
       </div>
-</section>
+
  
   )
 }
